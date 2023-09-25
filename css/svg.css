@@ -1,7 +1,42 @@
+/* styling body */
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+
+  background-color: silver;
+  color: black;
+  
+  text-align: center;
+}
+
 .part-two {
-  fill: red;
+  fill: orange;
 }
 
 .part-three {
-  fill: yellow;
+  fill: rgb(76, 0, 255);
+}
+
+nav ul {
+  /* display: flex; */
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  border-style: none;
+  background-color: green;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a:hover {
+  background-color: purple;
+}
+
+nav a {
+  display: block;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
