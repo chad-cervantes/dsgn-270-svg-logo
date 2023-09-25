@@ -9,12 +9,19 @@ body {
   text-align: center;
 }
 
-.part-two {
-  fill: orange;
+/* Structure */
+.part-one {
+  fill: blue;
 }
 
+/* Diamond Shape */
+.part-two {
+  fill: violet;
+}
+
+/* Half-moon shapes */
 .part-three {
-  fill: rgb(76, 0, 255);
+  fill: cyan;
 }
 
 nav ul {
